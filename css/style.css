@@ -230,11 +230,11 @@ menu:active {
   border-radius: 0px 0px 4px 4px;
 }
 .our_team_list {
-  width: calc((100%-72px) / 4);
   background-color: #ffffff;
   margin-right: 24px;
   text-align: center;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100%-72px) / 4);
 }
 
 .our_team_list:last-child {
@@ -262,6 +262,7 @@ menu:active {
 .our_team li {
   background-color: #ffffff;
   text-align: center;
+  border-radius: 0px 0px 4px 4px;
 }
 /* our portfolio (section dort */
 .our-portfolio-section {
