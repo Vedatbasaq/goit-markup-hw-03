@@ -282,7 +282,6 @@ menu:active {
   row-gap: 48px;
 }
 .our-portfolio-list {
-  background-color: #ffffff;
   width: calc((100% - 72px) / 4);
 }
 .our-portfolio-box {
