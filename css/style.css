@@ -282,7 +282,9 @@ menu:active {
   row-gap: 48px;
 }
 .our-portfolio-list {
-  width: calc((100% - 72px) / 4);
+  flex: 1;
+  background-color: #ffffff;
+  flex-basis: calc((100% - 72px) / 4);
 }
 .our-portfolio-box {
   padding: 32px 16px;
