@@ -199,7 +199,8 @@ menu:active {
   gap: 24px;
 }
 .our-team-list {
-  width: calc((100% - 72px) / 4);
+  width: calc((1128px - 72px) / 4);
+  flex-shrink: 0;
 }
 .our-content-title {
   line-height: 1.11;
@@ -217,10 +218,6 @@ menu:active {
 }
 .our_content-text {
   letter-spacing: 0.02em;
-}
-
-.our-contents li {
-  width: calc((100% - 72px) / 4);
 }
 
 /*OUR TEAM (section uc*/
@@ -247,7 +244,6 @@ menu:active {
   margin-right: 24px;
   text-align: center;
   border-radius: 0px 0px 4px 4px;
-  width: calc((100%-72px) / 4);
 }
 
 .our-team-list:last-child {
@@ -288,7 +284,6 @@ menu:active {
   row-gap: 48px;
 }
 .our-portfolio-list {
-  width: calc((100%-72px) / 4);
   background-color: #ffffff;
 }
 .our-portfolio-box {
