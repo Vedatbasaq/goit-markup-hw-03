@@ -198,10 +198,7 @@ menu:active {
   margin-top: 72px;
   gap: 24px;
 }
-.our-team-list {
-  width: calc((100% - 72px) / 4);
-  flex-shrink: 0;
-}
+
 .our-content-title {
   line-height: 1.11;
   text-align: center;
@@ -237,13 +234,12 @@ menu:active {
   display: flex;
   flex-wrap: wrap;
   margin-top: 72px;
-  padding-right: 24px;
 }
 .our-team-list {
   background-color: #ffffff;
-  margin-right: 24px;
   text-align: center;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .our-team-list:last-child {
