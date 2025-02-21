@@ -194,9 +194,11 @@ menu:active {
 
 .our-content {
   display: flex;
-  margin-right: 24px;
   margin-top: 72px;
   gap: 24px;
+}
+.our-content-list {
+  width: calc((100% - 72px) / 4);
 }
 
 .our-content-title {
@@ -281,6 +283,7 @@ menu:active {
 }
 .our-portfolio-list {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
 }
 .our-portfolio-box {
   padding: 32px 16px;
