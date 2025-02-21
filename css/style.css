@@ -177,9 +177,12 @@ menu:active {
 .our-content-section {
   padding: 120px 0;
 }
-.our-content-title.visually-hidden {
+.our-content-title {
+}
+.visually-hidden {
   display: none;
   visibility: hidden;
+  overflow: hidden;
 }
 
 .our-content {
